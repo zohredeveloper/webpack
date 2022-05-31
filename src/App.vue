@@ -6,12 +6,17 @@
         <a href="#" class="brand-logo"><img alt="" id="logo" src="./assets/logo.png"></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><router-link to="/">Home</router-link></li>
-          <li><a href="/#/about">About</a></li>
+          <li><router-link to="/about">About</router-link></li>
+          <li><router-link to="/contact">Contact</router-link></li>
+
           <li><a href="collapsible.html">JavaScript</a></li>
         </ul>
       </div>
     </nav>
-    <router-view/>
+    <div class="container">
+      <router-view/>
+
+    </div>
   </div>
 </template>
 
