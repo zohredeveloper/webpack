@@ -5,6 +5,8 @@ import About from '@/components/About'
 import Contact from '@/components/Contact'
 import mt from 'materialize-css/dist/css/materialize.min.css'
 import mtj from 'materialize-css/dist/js/materialize.min'
+import awesome from 'font-awesome/css/font-awesome.min.css'
+
 /* eslint-enable */
 
 Vue.use(Router)
